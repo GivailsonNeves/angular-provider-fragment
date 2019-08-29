@@ -113,4 +113,4 @@ export class AppComponent implements DataProvider, FragmentProvider {
 
 > Aqui o maior ponto de atenção é que o componente implementa as duas interfaces necessárias a utilização do scroller e passa sua referencia através de uma função get.
 
-Como pode ser visto nesta implementação, o DataProvider passa os dados tal quais recebe ou ainda pode tratar a forma do dado, mas de fato quem deve saber como utilizar os dados é o fragment, o processo de montagem e funcionamento básico fica totalmente pela responsabilidade do do scroller.
+Como pode ser visto nesta implementação, o DataProvider passa os dados tal quais recebe ou ainda pode tratar a forma do dado, mas de fato quem deve saber como utilizar os dados é o fragment, o processo de montagem e funcionamento básico fica totalmente pela responsabilidade do scroller.
